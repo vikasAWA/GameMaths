@@ -1,0 +1,14 @@
+# Build artifacts
+build/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# VS Code
+.vscode/
+
+# Neovim
+*.swp
