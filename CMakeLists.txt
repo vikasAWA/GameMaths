@@ -50,3 +50,15 @@ target_link_libraries(
     mathlib
     raylib
 )
+
+add_executable(
+    normalize_demo
+    demos/normalize_demo.cpp
+)
+
+target_link_libraries(
+    normalize_demo
+    PRIVATE
+    mathlib
+    raylib
+)

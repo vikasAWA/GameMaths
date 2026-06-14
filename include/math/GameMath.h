@@ -11,6 +11,8 @@ public:
     float Length() const;
     float LengthSqr() const;
 
+    Vector Normalize() const;
+
     Vector operator*(float s) const;
     Vector operator/(float s) const;
 };

@@ -21,6 +21,14 @@ float Vector::LengthSqr() const
     return x * x + y * y;
 }
 
+Vector Vector::Normalize() const
+{
+    float len = Length();
+    if (len == 0)
+        return Vector();
+    return (*this) / len;
+}
+
 Vector Vector::operator*(float s) const
 {
     return Vector(x * s, y * s);
