@@ -12,8 +12,8 @@ public:
     float LengthSqr() const;
 
     Vector Normalize() const;
-    
 
+    float dotProduct(const Vector& v) const;
 
     // operations
     Vector operator+(const Vector& v) const;

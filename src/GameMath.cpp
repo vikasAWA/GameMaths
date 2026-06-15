@@ -29,6 +29,11 @@ Vector Vector::Normalize() const
     return (*this) / len;
 }
 
+// dot product 
+float Vector::dotProduct(const Vector& v) const
+{
+    return (x * v.x + y * v.y);
+}
 
 // operations implementation 
 Vector Vector::operator+(const Vector& v) const
