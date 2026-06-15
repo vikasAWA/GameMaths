@@ -62,3 +62,14 @@ target_link_libraries(
     mathlib
     raylib
 )
+add_executable(
+    vector_add_demo
+    demos/vector_add_demo.cpp
+)
+
+target_link_libraries(
+    vector_add_demo
+    PRIVATE
+    mathlib
+    raylib
+)

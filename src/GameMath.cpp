@@ -29,6 +29,18 @@ Vector Vector::Normalize() const
     return (*this) / len;
 }
 
+
+// operations implementation 
+Vector Vector::operator+(const Vector& v) const
+{
+    return Vector(x + v.x, y + v.y);
+}
+
+Vector Vector::operator-(const Vector& v) const
+{
+    return Vector(x - v.x, y - v.y);
+}
+
 Vector Vector::operator*(float s) const
 {
     return Vector(x * s, y * s);
