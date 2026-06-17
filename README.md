@@ -75,6 +75,30 @@ Examples:
 ./build/jump_demo
 ```
 
+# Demos
+
+## Vector Addition
+
+Visualizes vector addition using the head-to-tail method.
+
+![Vector Addition](screenshots/vector_add_demo.png)
+
+---
+
+## Dot Product
+
+Visualizes how the dot product changes as vector directions change.
+
+![Dot Product](screenshots/dot_demo.png)
+
+---
+
+## Jump Physics
+
+Projectile motion using velocity, gravity and delta time.
+
+![Jump Physics](screenshots/jump_demo.png)
+
 ## Why This Project Exists
 
 Most game math tutorials focus on formulas.
