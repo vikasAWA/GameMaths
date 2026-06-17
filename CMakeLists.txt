@@ -84,3 +84,14 @@ target_link_libraries(
     mathlib
     raylib
 )
+add_executable(
+    jump_demo
+    demos/jump_demo.cpp
+)
+
+target_link_libraries(
+    jump_demo
+    PRIVATE
+    mathlib
+    raylib
+)

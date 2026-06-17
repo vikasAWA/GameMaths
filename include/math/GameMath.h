@@ -31,6 +31,7 @@ public:
     Point(float x, float y);
 
     Point addVector(Vector v);
+    Point operator+(const Vector& v) const;
 };
 
 Vector operator-(Point a, Point b);

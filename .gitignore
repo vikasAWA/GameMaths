@@ -12,3 +12,4 @@ Makefile
 
 # Neovim
 *.swp
+*.swo

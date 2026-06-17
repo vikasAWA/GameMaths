@@ -73,6 +73,11 @@ Point Point::addVector(Vector v)
     return Point(x + v.x, y + v.y);
 }
 
+Point Point::operator+(const Vector& v) const
+{
+    return Point(x+v.x, y+v.y);
+}
+
 //
 // Free function
 //
