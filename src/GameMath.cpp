@@ -80,7 +80,24 @@ Point Point::operator+(const Vector& v) const
 
 //
 // Free function
-//
+float Lerp(float start, float end, float t)
+{
+    return start + (end - start) * t;
+}
+
+float Approach(float current, float goal, float dt){
+    if (current < goal)
+    {
+        current += dt;
+        if (current > goal) current = goal;
+    }
+    else if (current > goal)
+    {
+        current -= dt;
+        if (current < goal) current = goal;
+    }
+    return current;
+}
 
 Vector operator-(Point a, Point b)
 {

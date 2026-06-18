@@ -36,3 +36,6 @@ public:
 
 Vector operator-(Point a, Point b);
 
+float Lerp(float start, float end, float t);
+float Approach(float current, float goal, float t);
+

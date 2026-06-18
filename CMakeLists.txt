@@ -95,3 +95,15 @@ target_link_libraries(
     mathlib
     raylib
 )
+
+add_executable(
+    lerp_demo
+    demos/lerp_demo.cpp
+)
+
+target_link_libraries(
+    lerp_demo
+    PRIVATE
+    mathlib
+    raylib
+)
