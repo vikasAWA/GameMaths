@@ -106,3 +106,18 @@ Most game math tutorials focus on formulas.
 This project focuses on building intuition by visualizing concepts such as vectors, normalization, dot products, and physics using Raylib.
 
 The long-term goal is to grow this into a small reusable game mathematics library while learning the foundations of game programming.
+
+## Completed
+
+- [x] Vector Length
+- [x] Vector Normalize
+- [x] Dot Product
+- [x] Vector Addition
+- [x] Vector Subtraction
+- [x] Scalar Multiplication
+- [x] Scalar Division
+- [x] Point Distance
+- [x] Jump Physics Demo
+- [x] Lerp Demo
+- [x] Approach Demo
+- [x] Distance Demo

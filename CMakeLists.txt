@@ -107,3 +107,14 @@ target_link_libraries(
     mathlib
     raylib
 )
+add_executable(
+    distance_demo
+    demos/distance_demo.cpp
+)
+
+target_link_libraries(
+    distance_demo
+    PRIVATE
+    mathlib
+    raylib
+)

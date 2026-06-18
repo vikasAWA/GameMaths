@@ -78,6 +78,12 @@ Point Point::operator+(const Vector& v) const
     return Point(x+v.x, y+v.y);
 }
 
+float Point::Distance(const Point& other) const
+{
+    Vector v{other - (*this)};
+    return v.Length();
+}
+
 //
 // Free function
 float Lerp(float start, float end, float t)

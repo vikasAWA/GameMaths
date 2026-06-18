@@ -32,6 +32,8 @@ public:
 
     Point addVector(Vector v);
     Point operator+(const Vector& v) const;
+
+    float Distance(const Point& other) const;
 };
 
 Vector operator-(Point a, Point b);
